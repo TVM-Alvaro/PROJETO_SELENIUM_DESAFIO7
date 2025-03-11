@@ -54,6 +54,7 @@ def digitar_naturalmente(texto, elemento):
     for letra in texto:
         elemento.send_keys(letra)
         sleep(random.randint(1, 5)/30)
+
 #navegar até o desafio 07
 driver.get('https://cursoautomacao.netlify.app/desafios')
 # 1) Salvar nossa janela atual
